@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     libmllite \
     libmplmpu
 
+# Elan blob(s) necessary for Tilapia hardware
+PRODUCT_PACKAGES += \
+    touch_fw
+
 # NXP blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES += \
     libpn544_fw
